@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-rows:20px 20px 20px 20px 20px;
+	grid-template-columns:40px 30px 30px 30px;
+grid-template-areas:
+	a a a a
+	b c d d
+	b e e f
+	b g h i
+	b j j j 
+	
+}
+.eg1{
+	grid-area:a
+}
+.eg2{
+	grid-area:b
+}
+.eg3{
+	grid-area:c
+}
+.eg4{
+	grid-area:d
+}
+.eg5{
+	grid-area:e
+}
+.eg6{
+	grid-area:f
+}
+.eg7{
+	grid-area:g
+}
+.eg8{
+	grid-area:h
+}
+.eg9{
+	grid-area:i
+}
+.eg10{
+	grid-area:j
+}
+
+
