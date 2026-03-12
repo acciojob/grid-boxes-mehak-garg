@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-rows:20px 20px 20px 20px 20px;
+	grid-template-rows:124px 124px 124px 124x 124px;
 	grid-template-columns:40px 30px 30px 30px;
 grid-template-areas:
 	"a a a a"
@@ -9,7 +9,7 @@ grid-template-areas:
 	"b e e f"
 	"b g h i"
 	"b j j j" 
-	
+
 }
 .eg1{
 	grid-area:a
