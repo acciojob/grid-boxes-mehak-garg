@@ -1,22 +1,23 @@
 /*  your css code here. If applicable */
 #grid{
-	display:grid;
-	grid-template-rows:124px 124px 124px 124x 124px;
-	grid-template-columns:40px 30px 30px 30px;
+	display:grid; 
+	background-color:green;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns:repeat(4, 1fr);
 grid-template-areas:
 	"a a a a"
 	"b c d d"
 	"b e e f"
 	"b g h i"
 	"b j j j" 
+	grid-gap: 10px;
 
 }
-.eg1{background-color:green;
-	 margin:5px;
+.eg1{
+	
 	grid-area:a
 }
-.eg2{background-color:green;
-	 margin:5px;
+.eg2{
 	grid-area:b
 }
 .eg3{
