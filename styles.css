@@ -1,64 +1,32 @@
 /*  your css code here. If applicable */
 #grid{
+	height: 100vh;
 	display:grid; 
 	background-color:green;
 	grid-template-rows: repeat(5, 1fr);
 	grid-template-columns:repeat(4, 1fr);
-grid-template-areas:
-	"a a a a"
-	"b c d d"
-	"b e e f"
-	"b g h i"
-	"b j j j";
 	grid-gap: 10px;
 
 }
+#grid > div {
+	border: 1px solid white;
+}
 .eg1{
 	
-	grid-area:a;
+	grid-column: span 4;
 }
 .eg2{
-	grid-area:b;
+	grid-row: span 4;
 }
-.eg3{
-	background-color:green;
-	margin:5px;
-	grid-area:c;
-}
+
 .eg4{
-	background-color:green;
-	margin:5px;
-	grid-area:d;
+	grid-column: span 2;
 }
 .eg5{
-	background-color:green;
-	margin:5px;
-	grid-area:e;
-}
-.eg6{
-	background-color:green;
-	margin:5px;
-	grid-area:f;
-}
-.eg7{
-	background-color:green;
-	margin:5px;
-	grid-area:g;
-}
-.eg8{
-	background-color:green;
-	margin:5px;
-	grid-area:h;
-}
-.eg9{
-	background-color:green;
-	margin:5px;
-	grid-area:i;
+	grid-column: span 2;
 }
 .eg10{
-	background-color:green;
-	margin:5px;
-	grid-area:j;
+	grid-column: span 3;
 }
 
 
